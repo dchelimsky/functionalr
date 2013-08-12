@@ -21,6 +21,16 @@ Or install it yourself as:
 
 ### Hash Extensions
 
+#### Disclaimer
+
+These funtions are added to instances of `Hash` - not a very functional approach,
+but the idea is to be able to pipleline them with other `Hash` functions e.g.
+
+    {a: 1, b: 2, c: 3}.
+      reject {|k,v| v > 2}.
+      update_vals {|v| v * 2}
+    # => {a: 2, b: 4}
+
 #### `Hash#update_vals`
 
 Port of `update-vals` from https://github.com/jaycfields/jry
