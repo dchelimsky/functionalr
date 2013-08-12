@@ -7,17 +7,12 @@ unorganized, unrecommended, and unsupported.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Until this is released (probably never):
 
-    gem 'functionalr'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install functionalr
+    git clone https://github.com/dchelimsky/functionalr.git
+    cd functionalr
+    gem build functionalr.gemspec
+    gem install functionalr-0.0.1.alpha
 
 ## Usage
 
