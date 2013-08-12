@@ -20,9 +20,11 @@ Until this is released (probably never):
 
 In a DDD model, values should be immutable.
 
-    Person = Functionalr::ImmutableStruct.new(:first_name, :last_name)
-    person = Person.new("David", "Chelimsky")
-    person.first_name = "Dave"
+    Book = Functionalr::ImmutableStruct.new(:title, :author)
+    books = []
+    books << Book.new("World of Wonders", "Robertson Davies")
+
+    books.each {|book| book.title = translate(book.title, lang)}
     # => can't modify frozen ...
 
 ### Hash extensions
