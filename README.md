@@ -19,7 +19,15 @@ Or install it yourself as:
 
 ## Usage
 
-???
+### Hash Extensions
+
+#### `Hash#update_vals`
+
+Port of `update-vals` from https://github.com/jaycfields/jry
+
+    require 'functionalr'
+    {a: 1, b:2}.update_vals {|v| v * 2}
+    # => {a: 2, b: 4}
 
 ## Contributing
 
