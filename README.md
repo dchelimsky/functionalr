@@ -16,6 +16,15 @@ Until this is released (probably never):
 
 ## Usage
 
+### ImmutableStruct
+
+In a DDD model, values should be immutable.
+
+    Person = Functionalr::ImmutableStruct.new(:first_name, :last_name)
+    person = Person.new("David", "Chelimsky")
+    person.first_name = "Dave"
+    # => can't modify frozen ...
+
 ### Hash extensions
 
 #### Disclaimer
