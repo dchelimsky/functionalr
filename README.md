@@ -1,6 +1,7 @@
 # Functionalr
 
-TODO: Write a gem description
+Playground/grab-bag of stuff to make Ruby programs more functional. Completely
+unorganized, unrecommended, and unsupported.
 
 ## Installation
 
@@ -18,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+???
 
 ## Contributing
 
