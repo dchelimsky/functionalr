@@ -16,7 +16,7 @@ Until this is released (probably never):
 
 ## Usage
 
-### Hash Extensions
+### Hash extensions
 
 #### Disclaimer
 
