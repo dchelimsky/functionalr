@@ -1,5 +1,7 @@
 # Functionalr
 
+Pronounced "functionaler"
+
 Playground/grab-bag of stuff to make Ruby programs more functional. Completely
 unorganized, unrecommended, and unsupported.
 
