@@ -1,9 +1,7 @@
 module Functionalr
   module HashExtensions
     def update_vals
-      each do |k,v|
-        self.store(k, (yield v))
-      end
+      reduce({}) {|h,(k,v)| h[k] = yield v; h}
     end
   end
 end
